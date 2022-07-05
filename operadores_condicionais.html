@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERADORES CONDICIONAIS</title>
+</head>
+<script>
+    var nota1 = prompt('Digite a primeira nota: ')
+    var nota2 = prompt('Digite a segunda nota: ')
+    var total = (parseInt(nota1) + parseInt(nota2)) / 2
+    var media = 6
+
+
+    if (total >= media) {
+        document.write('<b>Sua nota é</b>: ' + total + '<br>')
+        document.write('<b>Situação</b>: <b style="color:blue;">Aprovado</b>')
+    } else {
+        document.write('<b>Sua nota é </b>: ' + total + '<br>')
+        document.write('<b>Situação</b>: <b style="color:red;">Reprovado</b>')
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>

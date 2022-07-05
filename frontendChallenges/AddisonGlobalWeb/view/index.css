@@ -1,0 +1,56 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* START HEADER */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header button {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#btn-black {
+    background-color: #5d5d5d;
+}
+
+#btn-white {
+    background-color: #fff;
+}
+
+header #btn-black {
+    color: #fff;
+}
+
+/* END HEADER */
+
+/* START ARTICLE */
+.card {
+    margin-top: 10px;
+    height: 500px;
+    /* border: 1px solid red; */
+    background-color: #eeeeee;
+}
+
+.card .card__image img {
+    max-width: 100%;
+}
+
+#card__title {
+    text-align: center;
+    color: #5d5d5d;
+}
+
+#card__legend{
+    color: #5d5d5d;
+    margin: 9px;
+}
+
+
+/* END ARTICLE */
