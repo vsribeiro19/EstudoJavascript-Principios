@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF/ELSE Operadores Lógicos</title>
+    <script>
+        //para o && todas as análises precisam ser verdadeiras
+        //para || apenas uma precisa ser verdadeira
+        // if(!(5 >= 2)){
+        //     document.write('Verdadeiro')
+        // }else{
+        //     document.write('Falso')
+        // }
+
+
+        var nota = prompt('Digite a nota: ')
+        var faltas = prompt('Digite a quantidade de faltas:')
+        var faltasMaximas = 15
+        var media = 7
+
+        if(nota >= media && faltas <= faltasMaximas){
+            document.write('Aprovado')
+        }else{
+            document.write('Reprovado')
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
