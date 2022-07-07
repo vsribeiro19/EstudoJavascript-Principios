@@ -9,24 +9,24 @@
     <script>
         //para o && todas as análises precisam ser verdadeiras
         //para || apenas uma precisa ser verdadeira
-        // if(!(5 >= 2)){
+        // if (!(5 >= 2)) {
         //     document.write('Verdadeiro')
-        // }else{
+        // } else {
         //     document.write('Falso')
         // }
-
-
         var nota = prompt('Digite a nota: ')
         var faltas = prompt('Digite a quantidade de faltas:')
         var faltasMaximas = 15
         var media = 7
 
-        if(nota >= media && faltas <= faltasMaximas){
-            document.write('Aprovado')
-        }else{
-            document.write('Reprovado')
-        }
+        // if (nota >= media && faltas <= faltasMaximas) {
+        //     document.write('Aprovado')
+        // } else {
+        //     document.write('Reprovado')
+        // }
 
+        var resultado = (nota >= media && faltas <= faltasMaximas) ? 'Aprovado' : 'Reprovado'
+        document.write(resultado)
 
     </script>
 </head>
